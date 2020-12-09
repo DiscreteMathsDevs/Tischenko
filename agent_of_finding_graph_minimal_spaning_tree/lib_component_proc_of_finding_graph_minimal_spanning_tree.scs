@@ -1,0 +1,14 @@
+lib_component_proc_of_finding_graph_minimal_spanning_tree
+=> nrel_main_idtf:
+	[Компонент библиотеки. scp-программа нахождения минимального остовного дерева графа]
+	(* <- lang_ru;; *);
+	[Library component. scp-program of graph minimal spanning tree search]
+	(* <- lang_en;; *);
+
+<- platform_independent_reusable_component_OSTIS;
+<- reusable_scp_program;
+
+-> rrel_key_sc_element: 
+	proc_of_finding_graph_minimal_spanning_tree;;
+
+lib_component_proc_of_finding_graph_minimal_spanning_tree = [*^"file://proc_of_finding_graph_minimal_spanning_tree.scs"*];;
